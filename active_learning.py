@@ -35,16 +35,9 @@ the underlying data distribution more accurately.
 __version__ = 1
 
 
-#import necessary libraries
-import numpy as np 
-import pandas as pd
-import tensorflow as tf
-import matplotlib.pyplot as plt
-import os
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from sklearn.model_selection import train_test_split
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+
+
+
 
 #avoid warnings (optional)
 import warnings
